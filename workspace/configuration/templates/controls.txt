@@ -1,0 +1,37 @@
+#  add the following line
+#  include $HOME/.config/sway/outputs/*
+#  into your main sway config to add the config below.
+#  Remove those parts of the main sway config accordingly. 
+
+bindsym $mod+1 exec --no-startup-id "go-spacer -index 1"
+bindsym $mod+2 exec --no-startup-id "go-spacer -index 2"
+bindsym $mod+3 exec --no-startup-id "go-spacer -index 3"
+bindsym $mod+4 exec --no-startup-id "go-spacer -index 4"
+bindsym $mod+5 exec --no-startup-id "go-spacer -index 5"
+bindsym $mod+6 exec --no-startup-id "go-spacer -index 6"
+bindsym $mod+7 exec --no-startup-id "go-spacer -index 7"
+bindsym $mod+8 exec --no-startup-id "go-spacer -index 8"
+bindsym $mod+9 exec --no-startup-id "go-spacer -index 9"
+bindsym $mod+0 exec --no-startup-id "go-spacer -index 10"
+
+bindsym $mod+Shift+1 exec --no-startup-id "go-spacer -shift -index 1"
+bindsym $mod+Shift+2 exec --no-startup-id "go-spacer -shift -index 2"
+bindsym $mod+Shift+3 exec --no-startup-id "go-spacer -shift -index 3"
+bindsym $mod+Shift+4 exec --no-startup-id "go-spacer -shift -index 4"
+bindsym $mod+Shift+5 exec --no-startup-id "go-spacer -shift -index 5"
+bindsym $mod+Shift+6 exec --no-startup-id "go-spacer -shift -index 6"
+bindsym $mod+Shift+7 exec --no-startup-id "go-spacer -shift -index 7"
+bindsym $mod+Shift+8 exec --no-startup-id "go-spacer -shift -index 8"
+bindsym $mod+Shift+9 exec --no-startup-id "go-spacer -shift -index 9"
+bindsym $mod+Shift+0 exec --no-startup-id "go-spacer -shift -index 10"
+
+bindsym $mod+Control+1 exec --no-startup-id "go-spacer -shift -go -index 1"
+bindsym $mod+Control+2 exec --no-startup-id "go-spacer -shift -go -index 2"
+bindsym $mod+Control+3 exec --no-startup-id "go-spacer -shift -go -index 3"
+bindsym $mod+Control+4 exec --no-startup-id "go-spacer -shift -go -index 4"
+bindsym $mod+Control+5 exec --no-startup-id "go-spacer -shift -go -index 5"
+bindsym $mod+Control+6 exec --no-startup-id "go-spacer -shift -go -index 6"
+bindsym $mod+Control+7 exec --no-startup-id "go-spacer -shift -go -index 7"
+bindsym $mod+Control+8 exec --no-startup-id "go-spacer -shift -go -index 8"
+bindsym $mod+Control+9 exec --no-startup-id "go-spacer -shift -go -index 9"
+bindsym $mod+Control+0 exec --no-startup-id "go-spacer -shift -go -index 10"

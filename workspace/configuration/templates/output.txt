@@ -1,0 +1,12 @@
+#output {{.name}}
+
+workspace "{{add .index  1}}: 1" output {{.name}}
+workspace "{{add .index  2}}: 2" output {{.name}}
+workspace "{{add .index  3}}: 3" output {{.name}}
+workspace "{{add .index  4}}: 4" output {{.name}}
+workspace "{{add .index  5}}: 5" output {{.name}}
+workspace "{{add .index  6}}: 6" output {{.name}}
+workspace "{{add .index  7}}: 7" output {{.name}}
+workspace "{{add .index  8}}: 8" output {{.name}}
+workspace "{{add .index  9}}: 9" output {{.name}}
+workspace "{{add .index  10}}: 10" output {{.name}}
